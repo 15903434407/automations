@@ -1,0 +1,12 @@
+headers: {'Content-Length': '', 'Content-Type': 'text/plain', 'Accept': '*/*', 'Accept-Encoding': 'deflate, gzip', 'User-Agent': 'facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)', 'Range': 'bytes=0-524287', 'Host': 'firewall.kobier.top:21234', 'Connection': 'close'} 
+remote_addr: 69.171.251.18
+REQUEST_METHOD: GET
+SERVER_PROTOCOL: HTTP/1.1
+ HTTP_USER_AGENT: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+------------
+headers: {'Content-Length': '', 'Content-Type': 'text/plain', 'Accept': '*/*', 'Accept-Encoding': 'deflate, gzip', 'User-Agent': 'facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)', 'Range': 'bytes=0-524287', 'Host': 'firewall.kobier.top:21234', 'Connection': 'close'} 
+remote_addr: 66.220.149.19
+REQUEST_METHOD: GET
+SERVER_PROTOCOL: HTTP/1.1
+ HTTP_USER_AGENT: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+------------

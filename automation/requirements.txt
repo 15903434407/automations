@@ -1,0 +1,13 @@
+Django==3.0.6
+django-extensions==2.2.9
+django-guardian==2.2.0
+django-redis==4.11.0
+django-versatileimagefield==2.0
+hiredis==1.0.1
+mysqlclient==1.4.6
+paramiko==2.7.1
+Pillow==7.1.2
+ptpython==3.0.2
+#python-magic==0.4.18
+#python-magic-bin==0.4.14
+redis==3.5.1

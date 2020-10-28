@@ -1,0 +1,102 @@
+headers: {'Content-Length': '', 'Content-Type': 'text/plain', 'Accept': '*/*', 'Accept-Encoding': 'deflate, gzip', 'User-Agent': 'facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)', 'Range': 'bytes=0-524287', 'Host': 'firewall.kobier.top:21234', 'Connection': 'close'} 
+remote_addr: 66.220.149.15
+REQUEST_METHOD: GET
+SERVER_PROTOCOL: HTTP/1.1
+ HTTP_USER_AGENT: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+------------
+headers: {'Content-Length': '', 'Content-Type': 'text/plain', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0', 'Accept': '*/*', 'Accept-Language': 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4', 'Host': 'fwall.gameir.cn:21234', 'Connection': 'keep-alive'} 
+remote_addr: 61.151.207.205
+REQUEST_METHOD: GET
+SERVER_PROTOCOL: HTTP/1.1
+ HTTP_USER_AGENT: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0
+------------
+headers: {'Content-Length': '', 'Content-Type': 'text/plain', 'Accept': '*/*', 'Accept-Encoding': 'deflate, gzip', 'User-Agent': 'facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)', 'Range': 'bytes=0-524287', 'Host': 'fwall.gameir.cn:21234', 'Connection': 'close'} 
+remote_addr: 173.252.83.22
+REQUEST_METHOD: GET
+SERVER_PROTOCOL: HTTP/1.1
+ HTTP_USER_AGENT: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+------------
+headers: {'Content-Length': '', 'Content-Type': 'text/plain', 'Accept': '*/*', 'Accept-Encoding': 'deflate, gzip', 'User-Agent': 'facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)', 'Range': 'bytes=0-524287', 'Host': 'fwall.gameir.cn:21234', 'Connection': 'close'} 
+remote_addr: 173.252.83.117
+REQUEST_METHOD: GET
+SERVER_PROTOCOL: HTTP/1.1
+ HTTP_USER_AGENT: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+------------
+headers: {'Content-Length': '', 'Content-Type': 'text/plain', 'Accept': '*/*', 'Accept-Encoding': 'deflate, gzip', 'User-Agent': 'facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)', 'Range': 'bytes=0-524287', 'Host': 'fwall.gameir.cn:21234', 'Connection': 'close'} 
+remote_addr: 69.171.251.8
+REQUEST_METHOD: GET
+SERVER_PROTOCOL: HTTP/1.1
+ HTTP_USER_AGENT: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+------------
+headers: {'Content-Length': '', 'Content-Type': 'text/plain', 'Accept': '*/*', 'Accept-Encoding': 'deflate, gzip', 'User-Agent': 'facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)', 'Range': 'bytes=0-524287', 'Host': 'fwall.gameir.cn:21234', 'Connection': 'close'} 
+remote_addr: 173.252.83.8
+REQUEST_METHOD: GET
+SERVER_PROTOCOL: HTTP/1.1
+ HTTP_USER_AGENT: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+------------
+headers: {'Content-Length': '', 'Content-Type': 'text/plain', 'Upgrade-Insecure-Requests': '1', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'en-US,en;q=0.9', 'Host': 'fwall.gameir.cn:21234', 'Connection': 'keep-alive'} 
+remote_addr: 66.220.149.5
+REQUEST_METHOD: GET
+SERVER_PROTOCOL: HTTP/1.1
+ HTTP_USER_AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36
+------------
+headers: {'Content-Length': '', 'Content-Type': 'text/plain', 'Upgrade-Insecure-Requests': '1', 'User-Agent': 'Mozilla/5.0 (Linux; Android 10; SM-G973U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Mobile Safari/537.36', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'en-US,en;q=0.9', 'Host': 'fwall.gameir.cn:21234', 'Connection': 'keep-alive'} 
+remote_addr: 69.171.251.5
+REQUEST_METHOD: GET
+SERVER_PROTOCOL: HTTP/1.1
+ HTTP_USER_AGENT: Mozilla/5.0 (Linux; Android 10; SM-G973U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Mobile Safari/537.36
+------------
+headers: {'Content-Length': '', 'Content-Type': 'text/plain', 'Accept': '*/*', 'Accept-Encoding': 'deflate, gzip', 'User-Agent': 'facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)', 'Range': 'bytes=0-524287', 'Host': 'fwall.gameir.cn:21234', 'Connection': 'close'} 
+remote_addr: 173.252.83.116
+REQUEST_METHOD: GET
+SERVER_PROTOCOL: HTTP/1.1
+ HTTP_USER_AGENT: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+------------
+headers: {'Content-Length': '', 'Content-Type': 'text/plain', 'Accept': '*/*', 'Accept-Encoding': 'deflate, gzip', 'User-Agent': 'facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)', 'Range': 'bytes=0-524287', 'Host': 'fwall.gameir.cn:21234', 'Connection': 'close'} 
+remote_addr: 173.252.95.25
+REQUEST_METHOD: GET
+SERVER_PROTOCOL: HTTP/1.1
+ HTTP_USER_AGENT: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+------------
+headers: {'Content-Length': '', 'Content-Type': 'text/plain', 'Accept': '*/*', 'Accept-Encoding': 'deflate, gzip', 'User-Agent': 'facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)', 'Range': 'bytes=0-524287', 'Host': 'fwall.gameir.cn:21234', 'Connection': 'close'} 
+remote_addr: 173.252.87.20
+REQUEST_METHOD: GET
+SERVER_PROTOCOL: HTTP/1.1
+ HTTP_USER_AGENT: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+------------
+headers: {'Content-Length': '', 'Content-Type': 'text/plain', 'Upgrade-Insecure-Requests': '1', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'en-US,en;q=0.9', 'Host': 'fwall.gameir.cn:21234', 'Connection': 'keep-alive'} 
+remote_addr: 69.171.251.113
+REQUEST_METHOD: GET
+SERVER_PROTOCOL: HTTP/1.1
+ HTTP_USER_AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+------------
+headers: {'Content-Length': '', 'Content-Type': 'text/plain', 'Accept': '*/*', 'Accept-Encoding': 'deflate, gzip', 'User-Agent': 'Mozilla/5.0 (Linux; Android 6.0.1; Nexus 6P Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.83 Mobile Safari/537.36', 'Host': 'fwall.gameir.cn:21234', 'Connection': 'keep-alive'} 
+remote_addr: 173.252.87.9
+REQUEST_METHOD: GET
+SERVER_PROTOCOL: HTTP/1.1
+ HTTP_USER_AGENT: Mozilla/5.0 (Linux; Android 6.0.1; Nexus 6P Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.83 Mobile Safari/537.36
+------------
+headers: {'Content-Length': '', 'Content-Type': 'text/plain', 'Accept': '*/*', 'Accept-Encoding': 'deflate, gzip', 'User-Agent': 'Mozilla/5.0 (Linux; Android 6.0.1; Nexus 6P Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.83 Mobile Safari/537.36', 'Host': 'fwall.gameir.cn:21234', 'Connection': 'keep-alive'} 
+remote_addr: 173.252.127.16
+REQUEST_METHOD: GET
+SERVER_PROTOCOL: HTTP/1.1
+ HTTP_USER_AGENT: Mozilla/5.0 (Linux; Android 6.0.1; Nexus 6P Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.83 Mobile Safari/537.36
+------------
+headers: {'Content-Length': '', 'Content-Type': 'text/plain', 'Accept': '*/*', 'Accept-Encoding': 'deflate, gzip', 'User-Agent': 'Mozilla/5.0 (Linux; Android 6.0.1; Nexus 6P Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.83 Mobile Safari/537.36', 'Host': 'fwall.gameir.cn:21234', 'Connection': 'keep-alive'} 
+remote_addr: 173.252.87.113
+REQUEST_METHOD: GET
+SERVER_PROTOCOL: HTTP/1.1
+ HTTP_USER_AGENT: Mozilla/5.0 (Linux; Android 6.0.1; Nexus 6P Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.83 Mobile Safari/537.36
+------------
+headers: {'Content-Length': '', 'Content-Type': 'text/plain', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; rv:11.0) like Gecko', 'Accept': '*/*', 'Accept-Language': 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4', 'Host': 'fwall.gameir.cn:21234', 'Connection': 'keep-alive'} 
+remote_addr: 61.129.7.235
+REQUEST_METHOD: GET
+SERVER_PROTOCOL: HTTP/1.1
+ HTTP_USER_AGENT: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; rv:11.0) like Gecko
+------------
+headers: {'Content-Length': '', 'Content-Type': 'text/plain', 'Accept': '*/*', 'Accept-Encoding': 'deflate, gzip', 'User-Agent': 'facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)', 'Range': 'bytes=0-524287', 'Host': 'fwall.gameir.cn:21234', 'Connection': 'close'} 
+remote_addr: 173.252.95.23
+REQUEST_METHOD: GET
+SERVER_PROTOCOL: HTTP/1.1
+ HTTP_USER_AGENT: facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+------------

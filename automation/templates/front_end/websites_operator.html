@@ -1,0 +1,574 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load cache %}
+
+{% block header_script %}
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>FireGame | 推广系统</title>
+    {% cache 2592000 static_css %}
+    <link href="{% static '' %}css/foots.css" rel="stylesheet" />
+    <link href="{% static '' %}css/themes/lite-purple.min.css" rel="stylesheet" />
+    <link href="{% static '' %}css/plugins/perfect-scrollbar.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="{% static '' %}css/plugins/datatables.min.css" />
+    {% endcache %}
+{% endblock header_script %}
+
+{% block global_theme_style %}class="text-left white-theme"{% endblock global_theme_style %}
+
+{% block content %}
+    <div class="app-admin-wrap layout-sidebar-large">
+        {% include 'front_end/common/header.html' %}
+        {% include 'front_end/common/side_content_wrap.html' %}
+        <!-- =============== Left side End ================-->
+        <div class="main-content-wrap sidenav-open d-flex flex-column">
+            <!-- ============ Body content start ============= -->
+            <div class="main-content">
+{#                <div class="breadcrumb">#}
+{#                    <h1>Datatables</h1>#}
+{#                    <ul>#}
+{#                        <li><a href="#">UI Kits</a></li>#}
+{#                        <li>Datatables</li>#}
+{#                    </ul>#}
+{#                </div>#}
+{#                <div class="separator-breadcrumb border-top"></div>#}
+                <div class="row mb-4">
+                    <div class="col-md-12">
+                        <h4>推广操作</h4>
+                        <p>网站落地页操作.</p>
+                    </div>
+                </div>
+                <!-- end of row-->
+                <div class="row mb-4">
+                    <div class="col-md-12 mb-4">
+                        <div class="card text-left">
+                            <div class="card-body">
+{#                                <h4 class="card-title mb-3">Zero configuration</h4>#}
+{#                                <p>DataTables has most features enabled by default, so all you need to do to use it with#}
+{#                                    your own ables is to call the construction function: $().DataTable();.</p>#}
+                                <div class="table-responsive">
+                                    <div id="" class="dataTables_wrapper container-fluid dt-bootstrap4">
+                                        <div class="row">
+                                            <form action="{% url 'module_website:web_site' %}" method="get">
+                                            <div class="card mb-12">
+                                                <div class="card-body">
+                                                    <div class="row row-xs">
+                                                        <div class="col-md-10">
+                                                            <input class="form-control" name="search_domain" type="text" placeholder="输入你的域名" />
+                                                        </div>
+
+                                                        <div class="col-md-2 mt-3 mt-md-0">
+                                                            <button class="btn btn-primary" type="submit">查找域名</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            </form>
+                                        </div>
+                                        <div class="row ">
+                                            <div class="col-sm-12">
+                                                <table class="display table table-striped table-bordered dataTable"
+                                                       id="zero_configuration_table" style="width: 100%;" role="grid"
+                                                       aria-describedby="zero_configuration_table_info">
+                                                    <thead>
+                                                    <tr role="row">
+                                                        <th class="sorting_desc" tabindex="0"
+                                                            aria-controls="zero_configuration_table" rowspan="1"
+                                                            colspan="1" aria-sort="ascending"
+                                                            aria-label="Name: activate to sort column descending"
+                                                            style="width: 284px;">主机
+                                                        </th>
+                                                        <th class="sorting_asc" tabindex="0"
+                                                            aria-controls="zero_configuration_table" rowspan="1"
+                                                            colspan="1" aria-sort="ascending"
+                                                            aria-label="Name: activate to sort column descending"
+                                                            style="width: 284px;">域名
+                                                        </th>
+                                                        <th class="sorting" tabindex="0"
+                                                            aria-controls="zero_configuration_table" rowspan="1"
+                                                            colspan="1"
+                                                            aria-label="Position: activate to sort column ascending"
+                                                            style="width: 422px;">邮箱
+                                                        </th>
+                                                        <th class="sorting" tabindex="0"
+                                                            aria-controls="zero_configuration_table" rowspan="1"
+                                                            colspan="1"
+                                                            aria-label="Office: activate to sort column ascending"
+                                                            style="width: 207px;">注册者
+                                                        </th>
+                                                        <th class="sorting" tabindex="0"
+                                                            aria-controls="zero_configuration_table" rowspan="1"
+                                                            colspan="1"
+                                                            aria-label="Age: activate to sort column ascending"
+                                                            style="width: 107px;">注册商
+                                                        </th>
+                                                        <th class="sorting" tabindex="0"
+                                                            aria-controls="zero_configuration_table" rowspan="1"
+                                                            colspan="1"
+                                                            aria-label="Start date: activate to sort column ascending"
+                                                            style="width: 197px;">注册网址
+                                                        </th>
+                                                        <th class="sorting" tabindex="0"
+                                                            aria-controls="zero_configuration_table" rowspan="1"
+                                                            colspan="1"
+                                                            aria-label="Salary: activate to sort column ascending"
+                                                            style="width: 161px;">注册时间
+                                                        </th>
+                                                        <th class="sorting" tabindex="0"
+                                                            aria-controls="zero_configuration_table" rowspan="1"
+                                                            colspan="1"
+                                                            aria-label="Salary: activate to sort column ascending"
+                                                            style="width: 161px;">更新时间
+                                                        </th>
+                                                        <th class="sorting" tabindex="0"
+                                                            aria-controls="zero_configuration_table" rowspan="1"
+                                                            colspan="1"
+                                                            aria-label="Salary: activate to sort column ascending"
+                                                            style="width: 161px;">过期时间
+                                                        </th>
+                                                        <th class="sorting" tabindex="0"
+                                                            aria-controls="zero_configuration_table" rowspan="1"
+                                                            colspan="1"
+                                                            aria-label="Salary: activate to sort column ascending"
+                                                            style="width: 161px;">状态
+                                                        </th>
+                                                        <th class="sorting" tabindex="0"
+                                                            aria-controls="zero_configuration_table" rowspan="1"
+                                                            colspan="1"
+                                                            aria-label="Salary: activate to sort column ascending"
+                                                            style="width: 161px;">DNS
+                                                        </th>
+                                                        <th rowspan="1" colspan="1" >操作</th>
+                                                    </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                    {% for d in domain_list %}
+                                                        <tr role="row" class="odd">
+                                                        <td class="sorting_1" >{{ d.host}}</td>
+                                                        <td class="sorting_1" id="domain_{{ d.id }}">{{ d.name}}</td>
+                                                        <td class="sorting_1">{{ d.email}}</td>
+                                                        <td class="sorting_1">{{ d.register_author}}</td>
+                                                        <td class="sorting_1">{{ d.register_business}}</td>
+                                                        <td class="sorting_1">{{ d.register_site}}</td>
+                                                        <td class="sorting_1">{{ d.register_date}}</td>
+                                                        <td>{{ d.update_date}}</td>
+                                                        <td>{{ d.expires_date}}</td>
+                                                        <td>{{ d.status}}</td>
+                                                        <td>{{ d.dns}}</td>
+                                                        <td><button class="btn btn-danger" id="reset-btn" type="button" onclick="confirm_operator_domain({{ d.id }});">选择</button></td>
+                                                    </tr>
+                                                    {% endfor %}
+
+                                                    </tbody>
+                                                    <tfoot>
+                                                    <tr>
+                                                        <th rowspan="1" colspan="1">主机</th>
+                                                        <th rowspan="1" colspan="1">域名</th>
+                                                        <th rowspan="1" colspan="1">邮箱</th>
+                                                        <th rowspan="1" colspan="1">注册者</th>
+                                                        <th rowspan="1" colspan="1">注册商</th>
+                                                        <th rowspan="1" colspan="1">注册网址</th>
+                                                        <th rowspan="1" colspan="1">注册时间</th>
+                                                        <th rowspan="1" colspan="1">更新时间</th>
+                                                        <th rowspan="1" colspan="1">过期时间</th>
+                                                        <th rowspan="1" colspan="1">状态</th>
+                                                        <th rowspan="1" colspan="1">DNS</th>
+                                                        <th rowspan="1" colspan="1">操作</th>
+                                                    </tr>
+                                                    </tfoot>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-12 col-md-5">
+                                                <div class="dataTables_info" id="zero_configuration_table_info"
+                                                     role="status" aria-live="polite">Showing 1 to 10 of 57 entries
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12 col-md-7">
+                                                <div class="dataTables_paginate paging_simple_numbers"
+                                                     id="zero_configuration_table_paginate">
+                                                    <ul class="pagination">
+                                                        {% if domain_list.has_previous %}
+                                                            <li class="paginate_button page-item previous" id="zero_configuration_table_previous"><a href="?page=1" aria-controls="zero_configuration_table" data-dt-idx="0" tabindex="0" class="page-link">首页</a></li>
+                                                            <li class="paginate_button page-item previous" id="zero_configuration_table_previous"><a href="?page={{ domain_list.previous_page_number }}" aria-controls="zero_configuration_table" data-dt-idx="0" tabindex="0" class="page-link">上一页</a></li>
+                                                        {% endif %}
+
+                                                        <li class="paginate_button page-item active"><a href="#"
+                                                                                                        aria-controls="zero_configuration_table"
+                                                                                                        data-dt-idx="1"
+                                                                                                        tabindex="0"
+                                                                                                        class="page-link">当前第 {{ domain_list.number }} 页  共 {{ domain_list.paginator.num_pages }}页.</a>
+                                                        </li>
+                                                        {% if domain_list.has_next %}
+                                                            <li class="paginate_button page-item next" id="zero_configuration_table_next"><a href="?page={{ domain_list.next_page_number }}" aria-controls="zero_configuration_table" data-dt-idx="7" tabindex="0" class="page-link">下一页</a></li>
+                                                            <li class="paginate_button page-item next" id="zero_configuration_table_next"><a href="?page={{ domain_list.paginator.num_pages }}" aria-controls="zero_configuration_table" data-dt-idx="7" tabindex="0" class="page-link">尾页</a></li>
+                                                        {% endif %}
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end of col-->
+
+
+                </div>
+                <!-- end of row-->
+
+                <div class="row mb-4">
+                    <div class="col-md-12 mb-4">
+                        <div class="card text-left">
+                            <div class="card-body">
+                                <h4 class="card-title mb-3">操作面板</h4>
+                                <p>当前操作域名: <strong id="current_domain"></strong></p>
+                                <div class="table-responsive">
+                                    <div id="" class="dataTables_wrapper container-fluid dt-bootstrap4">
+                                        <div class="row ">
+                                            <div class="col-sm-12">
+                                                <table class="display table table-striped table-bordered dataTable"
+                                                       id="zero_configuration_table" style="width: 100%;" role="grid"
+                                                       aria-describedby="zero_configuration_table_info">
+                                                    <thead>
+                                                    <tr role="row">
+                                                        <th class="sorting_asc" tabindex="0"
+                                                            aria-controls="zero_configuration_table" rowspan="1"
+                                                            colspan="1" aria-sort="ascending"
+                                                            aria-label="Name: activate to sort column descending"
+                                                            style="width: 284px;">落地页
+                                                        </th>
+                                                        <th class="sorting" tabindex="0"
+                                                            aria-controls="zero_configuration_table" rowspan="1"
+                                                            colspan="1"
+                                                            aria-label="Position: activate to sort column ascending"
+                                                            style="width: 422px;">屏蔽
+                                                        </th>
+                                                        <th class="sorting" tabindex="0"
+                                                            aria-controls="zero_configuration_table" rowspan="1"
+                                                            colspan="1"
+                                                            aria-label="Office: activate to sort column ascending"
+                                                            style="width: 207px;">CNZZ
+                                                        </th>
+                                                        <th class="sorting" tabindex="0"
+                                                            aria-controls="zero_configuration_table" rowspan="1"
+                                                            colspan="1"
+                                                            aria-label="Age: activate to sort column ascending"
+                                                            style="width: 107px;">PHP
+                                                        </th>
+                                                    </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr role="row" class="odd">
+                                                        <td class="sorting_1" id="FloorPage">待选择</td>
+                                                        <td class="sorting_1"><label
+                                                                    class="switch pr-5 switch-success mr-3">
+                                                                <input id="block_buttom" type="checkbox"><span
+                                                                        class="slider"></span>
+                                                            </label>
+                                                        </td>
+                                                        <td class="sorting_1" id="config_cnzz">不存在</td>
+                                                        <td class="sorting_1">没有</td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="separator-breadcrumb border-top"></div>
+
+                                <div class="col-md-12 form-group mb-12">
+                                    <label for="picker1">选择落地页</label>
+                                    <select class="form-control" id="floor_page">
+                                        {% for fp in floor_page_objects %}
+                                        <option fp_id="{{ fp.id }}" link="{{ fp.link }}">{{ fp.name}} - {{ fp.language }}</option>
+                                        {% endfor %}
+                                    </select>
+                                </div>
+                                <div class="col-md-12 form-group mb-12">
+                                            <label for="firstName1">CNZZ 统计</label>
+                                    <textarea class="form-control" id="show_config_cnzz" type="text" placeholder="请输入CNZZ统计"></textarea>
+                                </div>
+
+                                <div class="col-md-12 form-group mb-12">
+                                            <label for="firstName1">FaceBook PIXEL</label>
+                                    <textarea class="form-control" id="config_facebook" type="text" placeholder="请输入FaceBook PIXEL"></textarea>
+                                </div>
+
+                                <div class="col-md-12 form-group mb-12">
+                                    <div class="mb-3">
+                                    <label class="checkbox checkbox-outline-success">
+                                        <input type="checkbox" id="config_is_save_service_info" >
+                                        <span>仅更换落地页, 保留客服</span><span class="checkmark"></span>
+                                    </label>
+                                    </div>
+                                </div>
+                                <button class="btn btn-primary btn-block m-1 mb-3" type="button" onclick="setting_floorpage(this);">设置落地页</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end of col-->
+
+
+                </div>
+                <!-- end of row-->
+                <!-- end of main-content -->
+            </div>
+            <!-- Footer Start -->
+            {% include 'front_end/common/footer.html' %}
+            <!-- fotter end -->
+        </div>
+    </div><!-- ============ Search UI Start ============= -->
+    <div class="search-ui">
+        <div class="search-header">
+            <img src="{% static '' %}images/logo.png" alt="" class="logo">
+            <button class="search-close btn btn-icon bg-transparent float-right mt-2">
+                <i class="i-Close-Window text-22 text-muted"></i>
+            </button>
+        </div>
+        <input type="text" placeholder="Type here" class="search-input" autofocus>
+        <div class="search-title">
+            <span class="text-muted">Search results</span>
+        </div>
+        <div class="search-results list-horizontal">
+            <div class="list-item col-md-12 p-0">
+                <div class="card o-hidden flex-row mb-4 d-flex">
+                    <div class="list-thumb d-flex">
+                        <!-- TUMBNAIL -->
+                        <img src="{% static '' %}images/products/headphone-1.jpg" alt="">
+                    </div>
+                    <div class="flex-grow-1 pl-2 d-flex">
+                        <div class="card-body align-self-center d-flex flex-column justify-content-between align-items-lg-center flex-lg-row">
+                            <!-- OTHER DATA -->
+                            <a href="#" class="w-40 w-sm-100">
+                                <div class="item-title">Headphone 1</div>
+                            </a>
+                            <p class="m-0 text-muted text-small w-15 w-sm-100">Gadget</p>
+                            <p class="m-0 text-muted text-small w-15 w-sm-100">$300
+                                <del class="text-secondary">$400</del>
+                            </p>
+                            <p class="m-0 text-muted text-small w-15 w-sm-100 d-none d-lg-block item-badges">
+                                <span class="badge badge-danger">Sale</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="list-item col-md-12 p-0">
+                <div class="card o-hidden flex-row mb-4 d-flex">
+                    <div class="list-thumb d-flex">
+                        <!-- TUMBNAIL -->
+                        <img src="{% static '' %}images/products/headphone-2.jpg" alt="">
+                    </div>
+                    <div class="flex-grow-1 pl-2 d-flex">
+                        <div class="card-body align-self-center d-flex flex-column justify-content-between align-items-lg-center flex-lg-row">
+                            <!-- OTHER DATA -->
+                            <a href="#" class="w-40 w-sm-100">
+                                <div class="item-title">Headphone 1</div>
+                            </a>
+                            <p class="m-0 text-muted text-small w-15 w-sm-100">Gadget</p>
+                            <p class="m-0 text-muted text-small w-15 w-sm-100">$300
+                                <del class="text-secondary">$400</del>
+                            </p>
+                            <p class="m-0 text-muted text-small w-15 w-sm-100 d-none d-lg-block item-badges">
+                                <span class="badge badge-primary">New</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="list-item col-md-12 p-0">
+                <div class="card o-hidden flex-row mb-4 d-flex">
+                    <div class="list-thumb d-flex">
+                        <!-- TUMBNAIL -->
+                        <img src="{% static '' %}images/products/headphone-3.jpg" alt="">
+                    </div>
+                    <div class="flex-grow-1 pl-2 d-flex">
+                        <div class="card-body align-self-center d-flex flex-column justify-content-between align-items-lg-center flex-lg-row">
+                            <!-- OTHER DATA -->
+                            <a href="#" class="w-40 w-sm-100">
+                                <div class="item-title">Headphone 1</div>
+                            </a>
+                            <p class="m-0 text-muted text-small w-15 w-sm-100">Gadget</p>
+                            <p class="m-0 text-muted text-small w-15 w-sm-100">$300
+                                <del class="text-secondary">$400</del>
+                            </p>
+                            <p class="m-0 text-muted text-small w-15 w-sm-100 d-none d-lg-block item-badges">
+                                <span class="badge badge-primary">New</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="list-item col-md-12 p-0">
+                <div class="card o-hidden flex-row mb-4 d-flex">
+                    <div class="list-thumb d-flex">
+                        <!-- TUMBNAIL -->
+                        <img src="{% static '' %}images/products/headphone-4.jpg" alt="">
+                    </div>
+                    <div class="flex-grow-1 pl-2 d-flex">
+                        <div class="card-body align-self-center d-flex flex-column justify-content-between align-items-lg-center flex-lg-row">
+                            <!-- OTHER DATA -->
+                            <a href="#" class="w-40 w-sm-100">
+                                <div class="item-title">Headphone 1</div>
+                            </a>
+                            <p class="m-0 text-muted text-small w-15 w-sm-100">Gadget</p>
+                            <p class="m-0 text-muted text-small w-15 w-sm-100">$300
+                                <del class="text-secondary">$400</del>
+                            </p>
+                            <p class="m-0 text-muted text-small w-15 w-sm-100 d-none d-lg-block item-badges">
+                                <span class="badge badge-primary">New</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- PAGINATION CONTROL -->
+        <div class="col-md-12 mt-5 text-center">
+            <nav aria-label="Page navigation example">
+                <ul class="pagination d-inline-flex">
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <!-- ============ Search UI End ============= -->
+{% endblock content %}
+
+{% block footer_script %}
+    {% cache 2592000 static_js %}
+    <script src="{% static '' %}js/plugins/jquery-3.3.1.min.js"></script>
+    <script src="{% static '' %}js/plugins/bootstrap.bundle.min.js"></script>
+    <script src="{% static '' %}js/plugins/perfect-scrollbar.min.js"></script>
+    <script src="{% static '' %}js/scripts/script.min.js"></script>
+    <script src="{% static '' %}js/scripts/sidebar.large.script.min.js"></script>
+{#    <script src="{% static '' %}js/plugins/datatables.min.js"></script>#}
+    {% endcache %}
+{#    <script src="{% static '' %}js/scripts/datatables.script.min.js"></script>#}
+    <script>
+    function confirm_operator_domain(domain_id){
+        var domain_name = $('#domain_' + domain_id).text();
+        $('#current_domain').html(domain_name).attr("domain_id", domain_id);
+
+        $.ajax({
+            url: "/get_domain_config/",
+            data: {"domain_id": domain_id},
+            type: "POST",
+            dataType: "json",
+            success: function (data) {
+                if (data["code"] == 200){
+                    var data = data["data"];
+                    var f_page_id = data["f_page_id"];
+                    var f_page_name = data["f_page_name"];
+                    var f_page_link = data["f_page_link"];
+                    var f_page_language = data["f_page_language"];
+                    var block = data["block"];
+                    var cnzz = data["cnzz"];
+                    var facebook = data["facebook"];
+                    var is_save_service_info = data["is_save_service_info"];
+
+                    $('#FloorPage').html(f_page_name).attr('FloorPage_id', f_page_id).attr('f_page_link', f_page_link).attr("f_page_language", f_page_language);
+
+                    $('#block_buttom').prop('checked', block);
+
+                    if (cnzz.length > 0){
+                        $('#config_cnzz').html("存在");
+                    }
+
+                    $("#floor_page").find("option[fp_id = '"+f_page_id+"']").attr("selected","selected");
+
+                    $("#show_config_cnzz").val(cnzz);
+
+
+                    $("#config_facebook").val(facebook);
+
+                    $('#config_is_save_service_info').prop('checked', is_save_service_info);
+                }
+                else {
+                    $('#FloorPage').html('').removeAttr('FloorPage_id').removeAttr('f_page_link').removeAttr('f_page_language');
+                    $('#block_buttom').prop('checked', false);
+                    $('#config_cnzz').html("");
+                    $("#show_config_cnzz").val('');
+                    $("#config_facebook").val('');
+                    $('#config_is_save_service_info').prop('checked', false);
+
+                }
+            }
+        });
+    }
+
+
+    function setting_floorpage(th){
+        $(th).attr('disabled', true);
+
+        var current_domain = $('#current_domain').text();
+        var current_domain_id = $('#current_domain').attr("domain_id");
+        if (current_domain_id == undefined){
+            alert("请先选择域名");
+            return false;
+        }
+        var block_func = $('#block_buttom:checked').val();
+        if (block_func == 'on') {
+            var block_func = 1;
+        }
+        else {
+            var block_func = 0;
+        }
+
+        var floorpage_id = $('#floor_page').find('option:selected').attr('fp_id');
+        if (floorpage_id == undefined || floorpage_id == '' || floorpage_id == null){
+            alert("必须选择落地页");
+            return false;
+        }
+
+        var config_cnzz = $('#show_config_cnzz').val();
+        var config_facebook = $('#config_facebook').val();
+        var is_save_service_info = $('#config_is_save_service_info:checked').val();
+        if (is_save_service_info == 'on') {
+            var is_save_service_info = 1;
+        }
+        else {
+            var is_save_service_info = 0;
+        }
+        $.ajax({
+            url: "/setting_floorpage/",
+            data: {
+                "current_domain_id": current_domain_id,
+                "block_func": block_func,
+                "floorpage_id": floorpage_id,
+                "config_cnzz": config_cnzz,
+                "config_facebook": config_facebook,
+                "is_save_service_info": is_save_service_info,
+            },
+            type: "POST",
+            dataType: "json",
+            success: function (data) {
+                alert(data["info"]);
+                $(th).attr('disabled', false);
+            }
+        });
+    }
+
+    </script>
+
+{% endblock footer_script %}
